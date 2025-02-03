@@ -2,6 +2,7 @@ import { AuthContext } from "@/context/AuthContext/AuthContext";
 import { clearStorage, getToken } from "@/services/AuthService";
 import { Slot, useRouter, useSegments } from "expo-router";
 import React, { useContext, useEffect } from "react";
+import {PaperProvider} from "react-native-paper";
 
 
 const InitialLayout =() =>{
@@ -47,7 +48,9 @@ export default function RootLayout(){
 
   return(
     <>
-      <InitialLayout/>
+      <PaperProvider>
+        <InitialLayout/>
+      </PaperProvider>
     </>
   )
 

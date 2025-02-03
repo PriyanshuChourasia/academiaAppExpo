@@ -33,6 +33,8 @@ export const AppColor={
     textWhite:'#D0D0D0',
     textYellow:'#FFC745',
     textBlack:'#000000',
-    buttonColor:"#0E0060"
+    buttonColor:"#0E0060",
+    themeText:"#231885",
+    rippleColor:'#ffffff3d'
   }
 }

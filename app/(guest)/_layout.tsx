@@ -7,7 +7,9 @@ export default function PublicLayout(){
     return(
         <>
             <Stack screenOptions={{
-                headerShown:false
+                headerShown:false,
+                headerBackVisible:false,
+                headerShadowVisible:false
             }}>
                 {
                     RouteData.map((item,index)=>(
