@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "name":"sign_in",
+        "headerShown":false,
+        "routeType":"guest"
+    },
+    {
+        "id":2,
+        "name":"sign_up",
+        "headerShown":false,
+        "routeType":"guest"
+    },
+    {
+        "id":3,
+        "name":"welcome",
+        "headerShown":false,
+        "routeType":"guest"
+    }
+]
