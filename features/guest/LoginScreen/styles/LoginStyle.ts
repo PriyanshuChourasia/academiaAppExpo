@@ -17,24 +17,24 @@ export const LoginStyle = StyleSheet.create({
         paddingTop:10
     },
     logoTextContainer:{
-        flex:1,
         paddingVertical:10,
         paddingHorizontal:10,
-        justifyContent:"space-evenly",
         alignItems:'center',
         gap:12,
         paddingTop:100
     },
     buttonStyle:{
         backgroundColor:AppColor.light.buttonColor,
-        paddingVertical:7
+        paddingVertical:7,
+        marginTop:20
     },
     formContainer:{
         flex:1,
+        marginTop:50
     },
     form:{
-        paddingHorizontal:12,
-        paddingVertical:20,
+        paddingHorizontal:15,
+        paddingVertical:30,
         borderRadius:6,
         backgroundColor:'white',
     },

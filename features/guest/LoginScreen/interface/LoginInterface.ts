@@ -2,6 +2,16 @@
 
 
 export interface ILoginInterface{
-    email:string,
+    username:string,
     password:string
+}
+
+
+export interface ILoginResponseInterface{
+    data:{
+        name:string,
+        email:string
+    },
+    token:string,
+    message:string
 }

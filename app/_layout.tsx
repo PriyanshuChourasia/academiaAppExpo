@@ -3,7 +3,7 @@ import { clearStorage, getToken } from "@/services/AuthService";
 import { Slot, useRouter, useSegments } from "expo-router";
 import React, { useContext, useEffect } from "react";
 import {PaperProvider} from "react-native-paper";
-
+import {QueryClient,QueryClientProvider} from "@tanstack/react-query";
 
 const InitialLayout =() =>{
   
@@ -46,10 +46,14 @@ const InitialLayout =() =>{
 
 export default function RootLayout(){
 
+  const queryClient = new QueryClient();
+
   return(
     <>
       <PaperProvider>
-        <InitialLayout/>
+        <QueryClientProvider client={queryClient}>
+          <InitialLayout/>
+        </QueryClientProvider>
       </PaperProvider>
     </>
   )
