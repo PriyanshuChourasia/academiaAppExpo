@@ -19,6 +19,8 @@ const InitialLayout =() =>{
     const checkAuth = async() =>{
       const token = await getToken();
 
+      console.log("token",token)
+
       if(token !== null && !isTabsGroup)
       {
         setIsAuthenticated(true);

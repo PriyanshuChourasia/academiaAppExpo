@@ -1,7 +1,35 @@
 [
     {
         "id":1,
+        "name":"diary",
+        "headerShown":true,
+        "headerTitle":"Academia",
+        "routeType":"auth"
+    },
+    {
+        "id":2,
+        "name":"travel",
+        "headerShown":true,
+        "headerTitle":"Academia",
+        "routeType":"auth"
+    },
+    {
+        "id":3,
         "name":"home",
+        "headerShown":true,
+        "headerTitle":"Academia",
+        "routeType":"auth"
+    },
+    {
+        "id":4,
+        "name":"homework",
+        "headerShown":true,
+        "headerTitle":"Academia",
+        "routeType":"auth"
+    },
+    {
+        "id":5,
+        "name":"profile",
         "headerShown":true,
         "headerTitle":"Academia",
         "routeType":"auth"
